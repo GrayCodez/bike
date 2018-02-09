@@ -1,0 +1,219 @@
+#bike {
+    width: 400px;
+    height: 250px;
+    margin: 20px 0;
+    position: relative;
+}
+
+#backwheel,
+#frontwheel {
+    width: 120px;
+    height: 120px;
+    border: solid 8px black;
+    position: absolute;
+    top: 68px;
+    border-radius: 50%;
+}
+
+#backwheel {
+    left: 35px;
+}
+
+#frontwheel {
+    left: 278px;
+}
+
+.center {
+    top: 56px;
+    left: 58px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: black;
+    position: absolute;
+}
+
+div[class*="spoke"] {
+    height: 1px;
+    width: 62px;
+    background-color: black;
+    position: absolute;
+    top: 60px;
+    transform-origin: 100% 50%;
+}
+
+.spoke2 {
+    transform: rotate(72deg);
+}
+
+.spoke3 {
+    transform: rotate(144deg);
+}
+
+.spoke4 {
+    transform: rotate(216deg);
+}
+
+.spoke5 {
+    transform: rotate(288deg);
+}
+
+#bike div[id*="frame"] {
+    height: 10px;
+    background-color: purple;
+    position: absolute;
+    border-radius: 5px;
+}
+
+#frametop {
+    width: 163px;
+    top: 20px;
+    left: 158px;
+}
+
+#framechainstay {
+    top: 131px;
+    left: 104px;
+    width: 85px;
+    z-index: 2;
+}
+
+#framefork,
+#frameseattube {
+    top: 75px;
+    left: 270px;
+    width: 123px;
+    transform: rotate(75deg);
+    z-index: 2;
+}
+
+#frameseattube {
+    left: 112px;
+}
+
+#frameseatstay {
+    top: 78px;
+    left: 66px;
+    height: 6px!important;
+    width: 130px;
+    transform: rotate(-65deg);
+    z-index: 2;
+}
+
+#framedowntube {
+    top: 79px;
+    width: 171px;
+    left: 165px;
+    transform: rotate(140deg);
+}
+
+.handlebars {
+    position: absolute;
+    left: 311px;
+    top: 1px;
+}
+
+#post {
+    position: absolute;
+    background-color: silver;
+    top: 10px;
+    width: 10px;
+    height: 10px;
+}
+
+#bar,
+#handle {
+    position: absolute;
+    top: 5px;
+    width: 50px;
+    height: 10px;
+    background-color: silver;
+    border-radius: 20px;
+    transform-origin: 0% 50%;
+    transform: rotate(-20deg);
+}
+
+#handle {
+    background-color: black;
+    width: 25px;
+    height: 12px;
+    transform: rotate(-20deg) translateX(25px);
+}
+
+#seat {
+    background-color: black;
+    border-radius: 20px;
+    position: absolute;
+    left: 135px;
+    height: 50px;
+    top: 0;
+    z-index: 3;
+    height: 29px;
+}
+
+#base {
+    width: 30px;
+    height: 25px;
+}
+
+#nose {
+    position: absolute;
+    background-color: black;
+    width: 40px;
+    height: 15px;
+    top: 0;
+    left: 20px;
+    border-bottom-right-radius: 15px;
+}
+
+.block {
+    width: 100%;
+    height: 430px;
+    background-color: black;
+    margin-top: -66px;
+    float: left;
+    padding: 50px;
+}
+
+.block span {
+    width: 300px;
+    /* height: 300px; */
+    border-radius: 50%;
+    background-color: rgba(80, 78, 78, 0.247);
+    float: left;
+    color: white;
+    font-size: 3em;
+    display: block;
+    margin-top: 5%;
+    margin-left: 100px;
+    padding: 130px 0;
+    text-align: center;
+}
+
+.block h1 {
+    color: white;
+    font-size: 5em;
+}
+
+.block2 {
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.block2 {
+    position: absolute;
+    width: 300px;
+    height: 180px;
+    margin-top: -300px;
+    margin-left: 864px;
+    float: left;
+    transition: transform 0.65s ease-out;
+    transition-delay: 2.46s;
+    background-color: rgba(19, 18, 18, 0.877);
+}
+
+.block2.change {
+    transform: translateX(100px);
+}

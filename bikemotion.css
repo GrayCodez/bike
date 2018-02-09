@@ -1,0 +1,16 @@
+#frontwheel,#backwheel{
+    transition:transform 3s ease-in-out ;
+    transform-origin: 50% 50%;
+}
+#frontwheel:hover,#backwheel:hover{
+    transform: rotate(720deg);
+}
+#bike{
+    transition:transform 3s linear ;
+}
+#bike.move{
+    transform: translateX(550px);
+}
+#frontwheel.spin,#backwheel.spin{
+    transform: rotate(1080deg);
+}
