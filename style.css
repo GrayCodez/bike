@@ -60,7 +60,7 @@ div[class*="spoke"] {
 
 #bike div[id*="frame"] {
     height: 10px;
-    background-color: purple;
+    background-color: dodgerblue;
     position: absolute;
     border-radius: 5px;
 }
